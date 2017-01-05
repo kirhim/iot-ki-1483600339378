@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-ki
+  host: iot-ki
+  disk_quota: 1024M
+  services:
+  - iot-ki-cloudantNoSQLDB
+  - iot-ki-iotf-service
